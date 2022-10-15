@@ -12,6 +12,8 @@ import { DashboardComponent } from './components/views/dashboard/dashboard.compo
 import { HomeNavbarComponent } from './components/views/shared/home-navbar/home-navbar.component';
 import { HomeFooterComponent } from './components/views/shared/home-footer/home-footer.component';
 
+import { NgChartsModule } from 'ng2-charts';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,6 +27,7 @@ import { HomeFooterComponent } from './components/views/shared/home-footer/home-
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgChartsModule
     // NgxEchartsModule.forRoot({
     //   echarts: () => import('echarts')
     // })
